@@ -1,2 +1,2 @@
 # cppopds
-CPP Headers for https://specs.opds.io/opds-1.2
+C++20 Headers for https://specs.opds.io/opds-1.2
