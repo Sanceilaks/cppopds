@@ -1,8 +1,25 @@
-﻿// cppopds.h : включаемый файл для стандартных системных включаемых файлов
-// или включаемые файлы для конкретного проекта.
+﻿#pragma once
 
-#pragma once
+#include <string_view>
+#include <filesystem>
+#include <fstream>
 
-#include <iostream>
+namespace cppopds {
+	struct author_t {
+		std::string name;
+		std::string uri;
+	};
 
-// TODO: установите здесь ссылки на дополнительные заголовки, требующиеся для программы.
+	struct entry_t {
+		std::string title;
+		std::string id;
+	};
+
+	struct opds_document {
+		std::string title;
+		std::string search_link;
+		author_t author;
+		std::string id;
+		std::string subtitle;
+	};
+}
