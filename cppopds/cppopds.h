@@ -1,5 +1,12 @@
 ﻿#pragma once
 
+// cppopds header by voidptr_t
+//	CC
+// C	 C   C
+// C	CCC CCC
+// C	 C   C
+//	CC
+
 #include <string_view>
 #include <optional>
 #include <vector>
